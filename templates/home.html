@@ -1,0 +1,27 @@
+<html>
+<body>
+    <div class ='login'>
+        <h1>House Price Prediction</h1>
+
+        <form action ="{{url_for('predict_datepoint')}}" method  ='post'>
+            <input type = "text" name = "Gender" placeholder="Gender" reqired="reqired"/><br>
+            <input type = "text" name = "Married" placeholder="Married" reqired="reqired"/><br>
+            <input type = "text" name = "Dependents" placeholder="Dependents" reqired="reqired"/><br>
+            <input type = "text" name = "Education" placeholder="Education" reqired="reqired"/><br>
+            <input type = "text" name = "Self_Employed" placeholder="Self_Employed" reqired="reqired"/><br>
+            <input type = "text" name = "ApplicantIncome" placeholder="ApplicantIncome" reqired="reqired"/><br>
+            <input type = "text" name = "CoapplicantIncome" placeholder="CoapplicantIncome" reqired="reqired"/><br>
+            <input type = "text" name = "LoanAmount" placeholder="LoanAmount" reqired="reqired"/><br>
+            <input type = "text" name = "Loan_Amount_Term" placeholder="Loan_Amount_Term" reqired="reqired"/><br>
+            <input type = "text" name = "Credit_History" placeholder="Credit_History" reqired="reqired"/><br>
+            <input type = "text" name = "Property_Area" placeholder="Property_Area" reqired="reqired"/><br>
+
+            <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+        </form></div>
+
+    <h2>
+        The Apporal Prediction is {{result}}
+    </h2>
+        
+<body>
+</html>  

@@ -1,0 +1,1 @@
+House Loan Prediction project pursed with an intension of builing an end-to-end project with Flask and deploy it on AWS Elastic Beanstalk. The idea is to concentrate on being end to end rather than focusing on building a concrete Machine Learning model.(Nov 24 2024)
